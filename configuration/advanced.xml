@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <preferences operation="replace">
+        <tag key="cache.capabilities1637351842" value="1701953389" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="cache.motd.html" value="1701953387" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="cache.motd.html.java" value="17.0.3" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="cache.motd.html.lang" value="En:" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="cache.motd.html.version" value="18513" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="changeset.lastHeight" value="0" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="changesetdialog.lastHeight" value="0" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="commandstack.lastHeight" value="0" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="conflict.lastHeight" value="0" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="coordinates" value="DECIMAL_DEGREES" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="download.overpass.for-multi-fetch" value="true" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="draw.fullscreen" value="true" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="draw.rawgps.colormode" value="0" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="draw.rawgps.lines" value="2" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="draw.show-user" value="true" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="elevation.lastHeight" value="230" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="elevation.visible" value="false" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="expert" value="true" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <list key="file-open.history" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="C:\Users\blue\josm\goodmorning.wms"/>
+              
+        </list>
+        <tag key="filter.lastHeight" value="0" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="gui.geometry" value="x=0,y=0,width=1504,height=1003" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <maps key="imagery.entries" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <map>
+                      
+                <tag key="max-zoom" value="22"/>
+                      
+                <tag key="min-zoom" value="1"/>
+                      
+                <tag key="noTileHeaders" value="{&quot;X-VE-Tile-Info&quot;:[&quot;no-tile&quot;]}"/>
+                      
+                <tag key="noTileChecksums" value="{&quot;MD5&quot;:[&quot;c13269481c73de6e18589f9fbc3bdf7e&quot;]}"/>
+                      
+                <tag key="metadataHeaders" value="{&quot;X-VE-TILEMETA-CaptureDatesRange&quot;:&quot;Capture Date&quot;}"/>
+                      
+                <tag key="transparent" value="true"/>
+                      
+                <tag key="minimumTileExpire" value="3600"/>
+                      
+                <tag key="name" value="Bing aerial imagery"/>
+                      
+                <tag key="id" value="Bing"/>
+                      
+                <tag key="type" value="bing"/>
+                      
+                <tag key="url" value="https://www.bing.com/maps/"/>
+                      
+                <tag key="permission-reference-url" value="https://wiki.openstreetmap.org/wiki/Bing_Maps"/>
+                      
+                <tag key="cookies" value=""/>
+                      
+                <tag key="icon" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAALVBMVEUMhIT///8jj4/Z7Ozl8vJUqal/vr6+3t6Tycmo1NQxl5dutbXz+flBn5/M5eX9gIKtAAAAjUlEQVR4XmMgD6gFoQkoC7eiCQgKK6AJiNBEQGkBmoBW5S40LROFZyugCMQICloEIQuoCwoKCicgCbAJCgoKGiEJMCWjCTAwpaAJsBaiCnC1CCILCCslCwoKijQgVKQLCgoKliLcAQbWCqgCFgin6wkKCgqevIDwHO8cQUHxAAYkwFoonMSAArS7GCgAAKZlGg8L4DPrAAAAAElFTkSuQmCC"/>
+                      
+                <tag key="customHttpHeaders" value="{}"/>
+                      
+                <tag key="category" value="photo"/>
+                    
+            </map>
+                
+            <map>
+                      
+                <tag key="max-zoom" value="22"/>
+                      
+                <tag key="noTileHeaders" value="{&quot;Etag&quot;:[&quot;\&quot;10i954m13i2\&quot;&quot;]}"/>
+                      
+                <tag key="noTileChecksums" value="{&quot;MD5&quot;:[&quot;f27d9de7f80c13501f470595e327aa6d&quot;]}"/>
+                      
+                <tag key="transparent" value="true"/>
+                      
+                <tag key="minimumTileExpire" value="3600"/>
+                      
+                <tag key="name" value="Esri World Imagery"/>
+                      
+                <tag key="id" value="EsriWorldImagery"/>
+                      
+                <tag key="type" value="tms"/>
+                      
+                <tag key="url" value="https://{switch:services,server}.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{zoom}/{y}/{x}"/>
+                      
+                <tag key="attribution-text" value="Terms &amp; Feedback"/>
+                      
+                <tag key="attribution-url" value="https://wiki.openstreetmap.org/wiki/Esri"/>
+                      
+                <tag key="cookies" value=""/>
+                      
+                <tag key="icon" value="data:image/png;base64,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"/>
+                      
+                <tag key="customHttpHeaders" value="{}"/>
+                      
+                <tag key="category" value="photo"/>
+                    
+            </map>
+                
+            <map>
+                      
+                <tag key="max-zoom" value="22"/>
+                      
+                <tag key="transparent" value="true"/>
+                      
+                <tag key="minimumTileExpire" value="3600"/>
+                      
+                <tag key="name" value="Esri World Imagery (Clarity) Beta"/>
+                      
+                <tag key="id" value="EsriWorldImageryClarity"/>
+                      
+                <tag key="type" value="tms"/>
+                      
+                <tag key="url" value="https://clarity.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/MapServer/tile/{zoom}/{y}/{x}"/>
+                      
+                <tag key="attribution-text" value="Terms &amp; Feedback"/>
+                      
+                <tag key="attribution-url" value="https://wiki.openstreetmap.org/wiki/Esri"/>
+                      
+                <tag key="permission-reference-url" value="https://github.com/osmlab/editor-layer-index/pull/358#issuecomment-361416110"/>
+                      
+                <tag key="cookies" value=""/>
+                      
+                <tag key="icon" value="data:image/png;base64,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"/>
+                      
+                <tag key="description" value="Esri archive imagery that may be clearer and more accurate than the default layer."/>
+                      
+                <tag key="customHttpHeaders" value="{}"/>
+                      
+                <tag key="category" value="photo"/>
+                    
+            </map>
+                
+            <map>
+                      
+                <tag key="max-zoom" value="22"/>
+                      
+                <tag key="noTileHeaders" value="{&quot;ETag&quot;:[&quot;\&quot;336b022ed883bc72347a637634e490d4\&quot;|\&quot;067736a547cafe90014b4e59b6510abe\&quot;|\&quot;ee1f6802b0234046b553cbbc672ac7d9\&quot;|\&quot;9f5a2f1d7cc131e58befc2052c71c827\&quot;&quot;]}"/>
+                      
+                <tag key="noTileChecksums" value="{&quot;MD5&quot;:[&quot;58e78313d04adf0ea64b8de8590c3d46&quot;]}"/>
+                      
+                <tag key="transparent" value="true"/>
+                      
+                <tag key="minimumTileExpire" value="3600"/>
+                      
+                <tag key="name" value="Mapbox Satellite"/>
+                      
+                <tag key="id" value="Mapbox"/>
+                      
+                <tag key="type" value="tms"/>
+                      
+                <tag key="url" value="https://{switch:a,b,c,d}.tiles.mapbox.com/v4/mapbox.satellite/{zoom}/{x}/{y}.jpg?access_token={apikey}"/>
+                      
+                <tag key="attribution-text" value="Terms &amp; Feedback"/>
+                      
+                <tag key="attribution-url" value="https://www.mapbox.com/about/maps/"/>
+                      
+                <tag key="permission-reference-url" value="https://wiki.openstreetmap.org/wiki/Vertical_Aerial_Photographs#DigitalGlobe_.2F_MapBox"/>
+                      
+                <tag key="cookies" value=""/>
+                      
+                <tag key="icon" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAhFBMVEVHcEz///9CZPtphPtFZ/uMof1KavvO0uJifvtQcPuLn/1ng/ve4euQnv36+vtIaPtXdfvt7vTr7PG2v+jl5/BaePuhrv1devugrOC7wNdxi/uap96uuOXKzeDc3/O9xuqfrfzY2+ilsOLEy+xEZfuQntuwttG+w9mpsM2Zp/x3j/t0jfvA+Y0kAAAAAXRSTlMAQObYZgAAASRJREFUeF6Fk+eSwyAMhC2Be+9Ob9fv/d/viBQgDLnx98cedi2JNQTPhHkqZSrC4CVZjYYo8+SzRAdZunqCHsmznuILUk/3HX79fPmMN7vE7XK2n5yAuTVI8KRm/qYATSd4L7R/rddH0i4VObjGPY9IGxYgfvbchRNTBq2PFQkxzvzCk6r8teFKy+0WcSHHjlbDIEdGtne5pIbzXlk2tCxMSFtQ9DMSvxeAwyOsN2RK6lD1jfLGALpCbQwfwPQYtWBnkKZFDEw1TkDkjxYCGZNi39HjhIQw2xzAoXhUDk1QnaMfG2RUkrVuYakWXuSoMzsk015H1GT2d7/HxTAUh69J8Mbt7w6+8V9K58j5JGuHdv3Yr18cy7Ry9RRZ5F1ej1D41/8P1QwO53k2L5oAAAAASUVORK5CYII="/>
+                      
+                <tag key="customHttpHeaders" value="{}"/>
+                      
+                <tag key="category" value="photo"/>
+                    
+            </map>
+                
+            <map>
+                      
+                <tag key="max-zoom" value="19"/>
+                      
+                <tag key="valid-georeference" value="true"/>
+                      
+                <tag key="transparent" value="true"/>
+                      
+                <tag key="minimumTileExpire" value="3600"/>
+                      
+                <tag key="name" value="OpenStreetMap Carto (Standard)"/>
+                      
+                <tag key="id" value="standard"/>
+                      
+                <tag key="type" value="tms"/>
+                      
+                <tag key="url" value="https://tile.openstreetmap.org/{zoom}/{x}/{y}.png"/>
+                      
+                <tag key="attribution-text" value="© OpenStreetMap contributors"/>
+                      
+                <tag key="attribution-url" value="https://www.openstreetmap.org/"/>
+                      
+                <tag key="permission-reference-url" value="https://wiki.osmfoundation.org/wiki/Terms_of_Use"/>
+                      
+                <tag key="cookies" value=""/>
+                      
+                <tag key="icon" value="data:image/png;base64,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"/>
+                      
+                <tag key="customHttpHeaders" value="{}"/>
+                      
+                <tag key="category" value="osmbasedmap"/>
+                    
+            </map>
+                
+            <map>
+                      
+                <tag key="max-zoom" value="18"/>
+                      
+                <tag key="min-zoom" value="1"/>
+                      
+                <tag key="transparent" value="true"/>
+                      
+                <tag key="minimumTileExpire" value="3600"/>
+                      
+                <tag key="name" value="OS OpenMap Local (October 2022)"/>
+                      
+                <tag key="id" value="OS-OpenMap_Local_2022_10"/>
+                      
+                <tag key="type" value="tms"/>
+                      
+                <tag key="url" value="https://{switch:a,b,c}.os.openstreetmap.org/layer/gb_os_om_local_2022_10/{zoom}/{x}/{y}.png"/>
+                      
+                <tag key="permission-reference-url" value="https://wiki.openstreetmap.org/wiki/Ordnance_Survey_OpenData"/>
+                      
+                <tag key="country-code" value="GB"/>
+                      
+                <tag key="date" value="2022-10"/>
+                      
+                <tag key="cookies" value=""/>
+                      
+                <tag key="bounds" value="49.86736,-8.71635,60.91039,1.83339"/>
+                      
+                <tag key="shapes" value="50.02297,-5.82929,50.25482,-5.82929,50.25482,-5.37336,50.35306,-5.37336,50.35306,-5.1756,50.59254,-5.1756,50.59254,-4.99707,50.69356,-4.99707,50.69356,-4.79657,50.78221,-4.79657,50.78221,-4.69495,50.96074,-4.69495,50.96074,-4.60431,51.06921,-4.60431,51.06921,-4.37922,51.25218,-4.37922,51.25218,-3.90393,51.2917,-3.90393,51.2917,-3.71717,51.2453,-3.71717,51.2453,-3.14862,51.36207,-3.14862,51.36207,-3.74463,51.43404,-3.74463,51.43404,-3.82978,51.52982,-3.82978,51.52982,-4.08521,51.49393,-4.08521,51.49393,-4.37922,51.54272,-4.37922,51.54272,-5.14442,51.6296,-5.14442,51.6296,-5.73871,51.77404,-5.73871,51.77404,-5.50954,51.98026,-5.50954,51.98026,-5.1988,52.09734,-5.1988,52.09734,-4.88806,52.18316,-4.88806,52.18316,-4.49575,52.29257,-4.49575,52.29257,-4.30154,52.36853,-4.30154,52.36853,-4.18112,52.79337,-4.18112,52.79337,-4.44137,52.73696,-4.44137,52.73696,-4.85698,52.93173,-4.85698,52.93173,-4.7288,53.50386,-4.7288,53.50386,-4.15782,53.41135,-4.15782,53.41135,-3.31105,53.50386,-3.31105,53.50386,-3.23337,54.01592,-3.23337,54.01592,-3.39262,54.1981,-3.39262,54.1981,-3.55964,54.43373,-3.55964,54.43373,-3.7189,54.7219,-3.7189,54.7219,-4.30154,54.61407,-4.30154,54.61407,-5.04731,54.75329,-5.04731,54.75329,-5.22987,55.21908,-5.22987,55.21908,-5.65326,55.25009,-5.65326,55.25009,-5.89796,55.48225,-5.89796,55.48225,-6.59332,56.30134,-6.59332,56.30134,-7.17277,56.56018,-7.17277,56.56018,-6.81717,56.69917,-6.81717,56.69917,-6.53153,56.9067,-6.53153,56.9067,-6.81168,57.37166,-6.81168,57.37166,-6.8721,57.55189,-6.8721,57.55189,-7.09732,57.24111,-7.09732,57.24111,-7.17423,56.9067,-7.17423,56.9067,-7.37198,56.80759,-7.37198,56.80759,-7.5203,56.71425,-7.5203,56.71425,-7.83068,56.89946,-7.83068,56.89946,-7.64941,57.47396,-7.64941,57.47396,-7.83068,57.79156,-7.83068,57.79156,-7.47362,58.08606,-7.47362,58.08606,-7.18798,58.3672,-7.18798,58.3672,-6.80346,58.41558,-6.80346,58.41558,-6.63866,58.46733,-6.63866,58.46733,-6.51781,58.56256,-6.51781,58.56256,-6.0536199,58.15688,-6.0536199,58.15688,-6.14701,58.11059,-6.14701,58.11059,-6.27998,57.71227,-6.27998,57.71227,-6.15913,57.66676,-6.15913,57.66676,-5.93391,57.88925,-5.93391,57.88925,-5.80643,57.96218,-5.80643,57.96218,-5.61417,58.09112,-5.61417,58.09112,-5.49082,58.37333,-5.49082,58.37333,-5.31991,58.75015,-5.31991,58.75015,-3.572,59.20918,-3.572,59.20918,-3.1944499,59.47592,-3.1944499,59.47592,-2.24358,59.13887,-2.24358,59.13887,-2.4611,58.81859,-2.4611,58.81859,-2.74077,58.58047,-2.74077,58.58047,-2.91167,58.11575,-2.91167,58.11575,-3.48654,57.74039,-3.48654,57.74039,-1.71532,57.22256,-1.71532,57.22256,-1.97945,56.87607,-1.97945,56.87607,-2.1659,56.63332,-2.1659,56.63332,-2.36011,56.04775,-2.36011,56.04775,-1.97945,55.86509,-1.97945,55.86509,-1.4745,55.24999,-1.4745,55.24999,-1.3222,54.82217,-1.3222,54.82217,-1.055,54.67466,-1.055,54.67466,-0.66188,54.55275,-0.66188,54.55275,-0.32476,54.28652,-0.32476,54.28652,0.00928,53.79385,0.00928,53.79385,0.2082,53.5217699,0.2082,53.5217699,0.41635,53.02989,0.41635,53.02989,1.42734,52.92021,1.42734,52.92021,1.83339,52.04249,1.83339,52.04249,1.52355,51.82613,1.52355,51.82613,1.2697,51.69675,1.2697,51.69675,1.11665,51.44035,1.11665,51.44035,1.52355,51.33318,1.52355,51.33318,1.45076,51.02076,1.45076,51.02076,1.06999,50.90084,1.06999,50.90084,0.77881,50.72984,0.77881,50.72984,-0.7256,50.70384,-0.7256,50.70384,-1.0074399,50.57363,-1.0074399,50.57363,-2.36253,50.48464,-2.36253,50.48464,-2.49878,50.57363,-2.49878,50.57363,-3.40964,50.20578,-3.40964,50.20578,-3.69224,50.13477,-3.69224,50.13477,-5.00547,49.94745,-5.00547,49.94745,-5.28395,50.02297,-5.28395,50.02297,-5.82929;49.86736,-6.45807,49.94999,-6.45807,49.94999,-6.39788,50.00538,-6.39788,50.00538,-6.17996,49.91686,-6.17996,49.91686,-6.25402,49.86736,-6.25402,49.86736,-6.45807;49.93216,-5.83432,49.97546,-5.83432,49.97546,-5.76833,49.93216,-5.76833,49.93216,-5.83432;60.68857,-1.94838,60.30588,-1.94838,60.30588,-1.75431,60.12844,-1.75431,60.12844,-1.57549,59.79792,-1.57549,59.79792,-1.0317,60.03545,-1.0317,60.03545,-0.66269,60.91039,-0.66269,60.91039,-1.10344,60.804,-1.10344,60.804,-1.35063,60.68857,-1.35063,60.68857,-1.94838;60.19686,-2.20338,60.09294,-2.20338,60.09294,-1.9864,60.19686,-1.9864,60.19686,-2.20338;59.56983,-1.75431,59.46394,-1.75431,59.46394,-1.53733,59.56983,-1.53733,59.56983,-1.75431;59.13705,-4.5586,58.95691,-4.5586,58.95691,-4.2867,59.13705,-4.2867,59.13705,-4.5586;59.20257,-6.27877,59.02278,-6.27877,59.02278,-5.66506,59.20257,-5.66506,59.20257,-6.27877;57.94406,-8.71635,57.73059,-8.71635,57.73059,-8.35929,57.94406,-8.35929,57.94406,-8.71635;50.4021,-7.6077,50.26887,-7.6077,50.26887,-7.39072,50.4021,-7.39072,50.4021,-7.6077;58.35799,-7.73043,58.24831,-7.73043,58.24831,-7.51345,58.35799,-7.51345,58.35799,-7.73043"/>
+                      
+                <tag key="customHttpHeaders" value="{}"/>
+                      
+                <tag key="category" value="map"/>
+                    
+            </map>
+                
+            <map>
+                      
+                <tag key="max-zoom" value="18"/>
+                      
+                <tag key="min-zoom" value="1"/>
+                      
+                <tag key="transparent" value="true"/>
+                      
+                <tag key="minimumTileExpire" value="3600"/>
+                      
+                <tag key="name" value="OS OpenData StreetView (April 2016)"/>
+                      
+                <tag key="id" value="OS-OpenData_StreetView_2016_04"/>
+                      
+                <tag key="type" value="tms"/>
+                      
+                <tag key="url" value="https://{switch:a,b,c}.os.openstreetmap.org/layer/gb_os_sv_2016_04/{zoom}/{x}/{y}.png"/>
+                      
+                <tag key="permission-reference-url" value="https://wiki.openstreetmap.org/wiki/Ordnance_Survey_OpenData"/>
+                      
+                <tag key="country-code" value="GB"/>
+                      
+                <tag key="date" value="2016-04"/>
+                      
+                <tag key="cookies" value=""/>
+                      
+                <tag key="bounds" value="49.8673563,-8.7163482,60.9103862,1.8333912"/>
+                      
+                <tag key="shapes" value="50.0229734,-5.8292886,50.254819,-5.8292886,50.254819,-5.373356,50.3530588,-5.373356,50.3530588,-5.1756021,50.5925406,-5.1756021,50.5925406,-4.9970743,50.6935617,-4.9970743,50.6935617,-4.7965738,50.7822112,-4.7965738,50.7822112,-4.6949503,50.9607371,-4.6949503,50.9607371,-4.6043131,51.0692066,-4.6043131,51.0692066,-4.3792215,51.2521782,-4.3792215,51.2521782,-3.9039346,51.2916998,-3.9039346,51.2916998,-3.7171671,51.2453014,-3.7171671,51.2453014,-3.1486246,51.362067,-3.1486246,51.362067,-3.7446329,51.4340386,-3.7446329,51.4340386,-3.8297769,51.5298246,-3.8297769,51.5298246,-4.0852091,51.4939284,-4.0852091,51.4939284,-4.3792215,51.5427168,-4.3792215,51.5427168,-5.1444195,51.6296003,-5.1444195,51.6296003,-5.7387103,51.774037,-5.7387103,51.774037,-5.5095393,51.9802596,-5.5095393,51.9802596,-5.198799,52.0973358,-5.198799,52.0973358,-4.8880588,52.1831557,-4.8880588,52.1831557,-4.4957492,52.2925739,-4.4957492,52.2925739,-4.3015365,52.3685318,-4.3015365,52.3685318,-4.1811246,52.7933685,-4.1811246,52.7933685,-4.4413696,52.7369614,-4.4413696,52.7369614,-4.8569847,52.9317255,-4.8569847,52.9317255,-4.7288044,53.5038599,-4.7288044,53.5038599,-4.1578191,53.4113498,-4.1578191,53.4113498,-3.3110518,53.5038599,-3.3110518,53.5038599,-3.2333667,54.0159169,-3.2333667,54.0159169,-3.3926211,54.1980953,-3.3926211,54.1980953,-3.559644,54.433732,-3.559644,54.433732,-3.7188984,54.721897,-3.7188984,54.721897,-4.3015365,54.6140739,-4.3015365,54.6140739,-5.0473132,54.7532915,-5.0473132,54.7532915,-5.2298731,55.2190799,-5.2298731,55.2190799,-5.6532567,55.250088,-5.6532567,55.250088,-5.8979647,55.4822462,-5.8979647,55.4822462,-6.5933212,56.3013441,-6.5933212,56.3013441,-7.1727691,56.5601822,-7.1727691,56.5601822,-6.8171722,56.6991713,-6.8171722,56.6991713,-6.5315276,56.9066964,-6.5315276,56.9066964,-6.811679,57.3716613,-6.811679,57.3716613,-6.8721038,57.5518893,-6.8721038,57.5518893,-7.0973235,57.2411085,-7.0973235,57.2411085,-7.1742278,56.9066964,-7.1742278,56.9066964,-7.3719817,56.8075885,-7.3719817,56.8075885,-7.5202972,56.7142479,-7.5202972,56.7142479,-7.8306806,56.8994605,-7.8306806,56.8994605,-7.6494061,57.4739617,-7.6494061,57.4739617,-7.8306806,57.7915584,-7.8306806,57.7915584,-7.4736249,58.086063,-7.4736249,58.086063,-7.1879804,58.367197,-7.1879804,58.367197,-6.8034589,58.4155786,-6.8034589,58.4155786,-6.638664,58.4673277,-6.638664,58.4673277,-6.5178143,58.5625632,-6.5178143,58.5625632,-6.0536224,58.1568843,-6.0536224,58.1568843,-6.1470062,58.1105865,-6.1470062,58.1105865,-6.2799798,57.7122664,-6.2799798,57.7122664,-6.1591302,57.6667563,-6.1591302,57.6667563,-5.9339104,57.8892524,-5.9339104,57.8892524,-5.80643,57.9621767,-5.80643,57.9621767,-5.6141692,58.0911236,-5.6141692,58.0911236,-5.490819,58.3733281,-5.490819,58.3733281,-5.3199118,58.75015,-5.3199118,58.75015,-3.5719977,59.2091788,-3.5719977,59.2091788,-3.1944501,59.4759216,-3.1944501,59.4759216,-2.243583,59.1388749,-2.243583,59.1388749,-2.4611012,58.8185938,-2.4611012,58.8185938,-2.7407675,58.5804743,-2.7407675,58.5804743,-2.9116746,58.1157523,-2.9116746,58.1157523,-3.4865441,57.740386,-3.4865441,57.740386,-1.7153245,57.2225558,-1.7153245,57.2225558,-1.9794538,56.8760742,-1.9794538,56.8760742,-2.1658979,56.6333186,-2.1658979,56.6333186,-2.3601106,56.0477521,-2.3601106,56.0477521,-1.9794538,55.8650949,-1.9794538,55.8650949,-1.4745008,55.2499926,-1.4745008,55.2499926,-1.3221997,54.8221737,-1.3221997,54.8221737,-1.0550014,54.6746628,-1.0550014,54.6746628,-0.6618765,54.5527463,-0.6618765,54.5527463,-0.3247617,54.2865195,-0.3247617,54.2865195,0.0092841,53.7938518,0.0092841,53.7938518,0.2081962,53.5217726,0.2081962,53.5217726,0.4163548,53.0298851,0.4163548,53.0298851,1.4273388,52.92021,1.4273388,52.92021,1.8333912,52.042488,1.8333912,52.042488,1.5235504,51.8261335,1.5235504,51.8261335,1.2697049,51.6967453,1.2697049,51.6967453,1.116651,51.440346,1.116651,51.440346,1.5235504,51.3331831,1.5235504,51.3331831,1.4507565,51.0207553,1.4507565,51.0207553,1.0699883,50.9008416,1.0699883,50.9008416,0.7788126,50.729843,0.7788126,50.729843,-0.7255952,50.7038437,-0.7255952,50.7038437,-1.0074383,50.5736307,-1.0074383,50.5736307,-2.3625252,50.4846421,-2.3625252,50.4846421,-2.4987805,50.5736307,-2.4987805,50.5736307,-3.4096378,50.2057837,-3.4096378,50.2057837,-3.6922446,50.1347737,-3.6922446,50.1347737,-5.005468,49.9474456,-5.005468,49.9474456,-5.2839506,50.0229734,-5.2839506,50.0229734,-5.8292886;49.8673563,-6.4580707,49.9499935,-6.4580707,49.9499935,-6.3978807,50.0053797,-6.3978807,50.0053797,-6.1799606,49.9168614,-6.1799606,49.9168614,-6.2540201,49.8673563,-6.2540201,49.8673563,-6.4580707;49.932156,-5.8343165,49.9754641,-5.8343165,49.9754641,-5.7683254,49.932156,-5.7683254,49.932156,-5.8343165;60.6885737,-1.9483797,60.3058841,-1.9483797,60.3058841,-1.7543149,60.1284428,-1.7543149,60.1284428,-1.5754914,59.797917,-1.5754914,59.797917,-1.0316959,60.0354518,-1.0316959,60.0354518,-0.6626918,60.9103862,-0.6626918,60.9103862,-1.1034395,60.8040022,-1.1034395,60.8040022,-1.3506319,60.6885737,-1.3506319,60.6885737,-1.9483797;60.1968568,-2.203381,60.0929443,-2.203381,60.0929443,-1.9864011,60.1968568,-1.9864011,60.1968568,-2.203381;59.5698289,-1.7543149,59.4639383,-1.7543149,59.4639383,-1.5373349,59.5698289,-1.5373349,59.5698289,-1.7543149;59.1370518,-4.5585981,58.9569099,-4.5585981,58.9569099,-4.2867004,59.1370518,-4.2867004,59.1370518,-4.5585981;59.2025744,-6.2787732,59.0227769,-6.2787732,59.0227769,-5.6650612,59.2025744,-5.6650612,59.2025744,-6.2787732;57.9440556,-8.7163482,57.7305936,-8.7163482,57.7305936,-8.3592926,57.9440556,-8.3592926,57.9440556,-8.7163482;50.4021026,-7.6077005,50.2688657,-7.6077005,50.2688657,-7.3907205,50.4021026,-7.3907205,50.4021026,-7.6077005;58.3579902,-7.7304303,58.248313,-7.7304303,58.248313,-7.5134503,58.3579902,-7.5134503,58.3579902,-7.7304303"/>
+                      
+                <tag key="customHttpHeaders" value="{}"/>
+                      
+                <tag key="category" value="map"/>
+                    
+            </map>
+                
+            <map>
+                      
+                <tag key="max-zoom" value="20"/>
+                      
+                <tag key="min-zoom" value="12"/>
+                      
+                <tag key="transparent" value="true"/>
+                      
+                <tag key="minimumTileExpire" value="3600"/>
+                      
+                <tag key="name" value="National Agriculture Imagery Program"/>
+                      
+                <tag key="id" value="USDA-NAIP"/>
+                      
+                <tag key="type" value="tms"/>
+                      
+                <tag key="url" value="https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/{zoom}/{y}/{x}"/>
+                      
+                <tag key="country-code" value="US"/>
+                      
+                <tag key="date" value="2019;2022"/>
+                      
+                <tag key="cookies" value=""/>
+                      
+                <tag key="bounds" value="24.496294,-124.8185282,49.4425264,-66.9311098"/>
+                      
+                <tag key="shapes" value="48.7529029,-123.2549305,48.5592263,-123.2549305,48.5592263,-123.192224,48.4348366,-123.192224,48.4348366,-122.9419646,48.3720812,-122.9419646,48.3720812,-122.8806229,48.3094763,-122.8806229,48.3094763,-122.8167566,48.1904587,-122.8167566,48.1904587,-123.0041133,48.1275918,-123.0041133,48.1275918,-123.058416,48.190514,-123.058416,48.190514,-123.254113,48.1274982,-123.254113,48.1274982,-123.3706593,48.1908403,-123.3706593,48.1908403,-124.0582632,48.253442,-124.0582632,48.253442,-124.1815163,48.3164666,-124.1815163,48.3164666,-124.4319117,48.3782613,-124.4319117,48.3782613,-124.5564618,48.4408305,-124.5564618,48.4408305,-124.7555107,48.1914986,-124.7555107,48.1914986,-124.8185282,48.1228381,-124.8185282,48.1228381,-124.7552951,47.5535253,-124.7552951,47.5535253,-124.3812108,47.1218696,-124.3812108,47.1218696,-124.1928897,43.7569431,-124.1928897,43.7569431,-124.4443382,43.1425556,-124.4443382,43.1425556,-124.6398855,42.6194503,-124.6398855,42.6194503,-124.4438525,39.8080662,-124.4438525,39.8080662,-123.8815685,39.1102825,-123.8815685,39.1102825,-123.75805,38.4968799,-123.75805,38.4968799,-123.2702803,37.9331905,-123.2702803,37.9331905,-122.8148084,37.8019606,-122.8148084,37.8019606,-122.5664316,36.9319611,-122.5664316,36.9319611,-121.8784026,36.6897596,-121.8784026,36.6897596,-122.0034748,36.4341056,-122.0034748,36.4341056,-121.9414159,35.9297636,-121.9414159,35.9297636,-121.5040977,35.8100273,-121.5040977,35.8100273,-121.3790276,35.4239164,-121.3790276,35.4239164,-120.9426515,35.1849683,-120.9426515,35.1849683,-120.8171978,35.1219894,-120.8171978,35.1219894,-120.6918447,34.4966794,-120.6918447,34.4966794,-120.5045898,34.4339651,-120.5045898,34.4339651,-120.0078775,34.3682626,-120.0078775,34.3682626,-119.5283517,34.0576434,-119.5283517,34.0576434,-119.0060985,33.9975267,-119.0060985,33.9975267,-118.5046259,33.8694631,-118.5046259,33.8694631,-118.4413209,33.6865253,-118.4413209,33.6865253,-118.066912,33.3063832,-118.066912,33.3063832,-117.5030045,33.0500337,-117.5030045,33.0500337,-117.3188195,32.6205888,-117.3188195,32.6205888,-117.1917023,32.4974566,-117.1917023,32.4974566,-116.746496,32.5609161,-116.746496,32.5609161,-115.9970138,32.6264942,-115.9970138,32.6264942,-114.8808125,32.4340796,-114.8808125,32.4340796,-114.6294474,32.3731636,-114.6294474,32.3731636,-114.4447437,32.3075418,-114.4447437,32.3075418,-114.2557628,32.2444561,-114.2557628,32.2444561,-114.0680274,32.1829113,-114.0680274,32.1829113,-113.8166499,32.1207622,-113.8166499,32.1207622,-113.6307421,32.0565099,-113.6307421,32.0565099,-113.4417495,31.9984372,-113.4417495,31.9984372,-113.2546027,31.9325434,-113.2546027,31.9325434,-113.068072,31.8718062,-113.068072,31.8718062,-112.8161105,31.8104171,-112.8161105,31.8104171,-112.6308756,31.7464723,-112.6308756,31.7464723,-112.4418918,31.6856001,-112.4418918,31.6856001,-112.257192,31.6210352,-112.257192,31.6210352,-112.0033787,31.559584,-112.0033787,31.559584,-111.815619,31.4970238,-111.815619,31.4970238,-111.6278586,31.4339867,-111.6278586,31.4339867,-111.4418978,31.3733859,-111.4418978,31.3733859,-111.2559708,31.3113225,-111.2559708,31.3113225,-108.1845822,31.7459502,-108.1845822,31.7459502,-106.5065055,31.6842308,-106.5065055,31.6842308,-106.3797265,31.621752,-106.3797265,31.621752,-106.317434,31.4968167,-106.317434,31.4968167,-106.2551769,31.4344889,-106.2551769,31.4344889,-106.1924698,31.3721296,-106.1924698,31.3721296,-106.0039212,31.309328,-106.0039212,31.309328,-105.9416582,31.2457547,-105.9416582,31.2457547,-105.8798174,31.1836194,-105.8798174,31.1836194,-105.8162349,31.1207155,-105.8162349,31.1207155,-105.6921198,31.0584835,-105.6921198,31.0584835,-105.6302881,30.9328271,-105.6302881,30.9328271,-105.5044418,30.8715864,-105.5044418,30.8715864,-105.4412973,30.808463,-105.4412973,30.808463,-105.3781497,30.7471828,-105.3781497,30.7471828,-105.1904658,30.6843231,-105.1904658,30.6843231,-105.1286244,30.6199737,-105.1286244,30.6199737,-105.0036504,30.5589058,-105.0036504,30.5589058,-104.9417962,30.4963236,-104.9417962,30.4963236,-104.8782018,30.3098261,-104.8782018,30.3098261,-104.8155257,30.2478305,-104.8155257,30.2478305,-104.7536079,29.9353916,-104.7536079,29.9353916,-104.690949,29.8090156,-104.690949,29.8090156,-104.6291301,29.6843577,-104.6291301,29.6843577,-104.5659869,29.6223459,-104.5659869,29.6223459,-104.5037188,29.5595436,-104.5037188,29.5595436,-104.4410072,29.4974832,-104.4410072,29.4974832,-104.2537551,29.3716718,-104.2537551,29.3716718,-104.1291984,29.3091621,-104.1291984,29.3091621,-104.0688737,29.2467276,-104.0688737,29.2467276,-103.8187309,29.1843076,-103.8187309,29.1843076,-103.755736,29.1223174,-103.755736,29.1223174,-103.5667542,29.0598119,-103.5667542,29.0598119,-103.5049819,28.9967506,-103.5049819,28.9967506,-103.3165753,28.9346923,-103.3165753,28.9346923,-103.0597572,29.0592965,-103.0597572,29.0592965,-102.9979694,29.1212855,-102.9979694,29.1212855,-102.9331397,29.1848575,-102.9331397,29.1848575,-102.8095989,29.2526154,-102.8095989,29.2526154,-102.8701345,29.308096,-102.8701345,29.308096,-102.8096681,29.3715484,-102.8096681,29.3715484,-102.7475655,29.5581899,-102.7475655,29.5581899,-102.684554,29.6847655,-102.684554,29.6847655,-102.4967764,29.7457694,-102.4967764,29.7457694,-102.3086647,29.8086627,-102.3086647,29.8086627,-102.1909323,29.7460097,-102.1909323,29.7460097,-101.5049914,29.6846777,-101.5049914,29.6846777,-101.3805796,29.5594459,-101.3805796,29.5594459,-101.3175057,29.4958934,-101.3175057,29.4958934,-101.1910075,29.4326115,-101.1910075,29.4326115,-101.067501,29.308808,-101.067501,29.308808,-100.9418897,29.2456231,-100.9418897,29.2456231,-100.8167271,29.1190449,-100.8167271,29.1190449,-100.7522672,29.0578214,-100.7522672,29.0578214,-100.6925358,28.8720431,-100.6925358,28.8720431,-100.6290158,28.8095363,-100.6290158,28.8095363,-100.5679901,28.622554,-100.5679901,28.622554,-100.5040411,28.5583804,-100.5040411,28.5583804,-100.4421832,28.4968266,-100.4421832,28.4968266,-100.379434,28.3092865,-100.379434,28.3092865,-100.3171942,28.1835681,-100.3171942,28.1835681,-100.254483,28.1213885,-100.254483,28.1213885,-100.1282282,28.059215,-100.1282282,28.059215,-100.0659537,27.9966087,-100.0659537,27.9966087,-100.0023855,27.9332152,-100.0023855,27.9332152,-99.9426497,27.7454658,-99.9426497,27.7454658,-99.816851,27.6834301,-99.816851,27.6834301,-99.7541346,27.6221543,-99.7541346,27.6221543,-99.6291629,27.5588977,-99.6291629,27.5588977,-99.5672838,27.4353752,-99.5672838,27.4353752,-99.5041798,27.3774021,-99.5041798,27.3774021,-99.5671796,27.2463726,-99.5671796,27.2463726,-99.504975,26.9965649,-99.504975,26.9965649,-99.4427427,26.872803,-99.4427427,26.872803,-99.3800633,26.8068179,-99.3800633,26.8068179,-99.3190684,26.7473614,-99.3190684,26.7473614,-99.2537541,26.6210068,-99.2537541,26.6210068,-99.1910617,26.4956737,-99.1910617,26.4956737,-99.1300639,26.3713808,-99.1300639,26.3713808,-99.0029473,26.3093836,-99.0029473,26.3093836,-98.816572,26.2457762,-98.816572,26.2457762,-98.6920082,26.1837096,-98.6920082,26.1837096,-98.4440896,26.1217217,-98.4440896,26.1217217,-98.3823181,26.0596488,-98.3823181,26.0596488,-98.2532707,25.9986871,-98.2532707,25.9986871,-98.0109084,25.9932255,-98.0109084,25.9932255,-97.6932319,25.9334103,-97.6932319,25.9334103,-97.6313904,25.8695893,-97.6313904,25.8695893,-97.5046779,25.8073488,-97.5046779,25.8073488,-97.3083401,25.8731159,-97.3083401,25.8731159,-97.2456326,25.9353731,-97.2456326,25.9353731,-97.1138939,27.6809179,-97.1138939,27.6809179,-97.0571035,27.8108242,-97.0571035,27.8108242,-95.5810766,28.7468827,-95.5810766,28.7468827,-94.271041,29.5594076,-94.271041,29.5594076,-92.5029947,29.4974754,-92.5029947,29.4974754,-91.8776216,29.3727013,-91.8776216,29.3727013,-91.378418,29.2468326,-91.378418,29.2468326,-91.3153953,29.1844301,-91.3153953,29.1844301,-91.1294702,29.1232559,-91.1294702,29.1232559,-91.0052632,28.9968437,-91.0052632,28.9968437,-89.4500159,28.8677422,-89.4500159,28.8677422,-88.8104309,30.1841864,-88.8104309,30.1841864,-85.8791527,29.5455038,-85.8791527,29.5455038,-84.8368083,29.6225158,-84.8368083,29.6225158,-84.7482786,29.683624,-84.7482786,29.683624,-84.685894,29.7468386,-84.685894,29.7468386,-83.6296975,29.4324361,-83.6296975,29.4324361,-83.3174937,29.0579442,-83.3174937,29.0579442,-82.879659,27.7453529,-82.879659,27.7453529,-82.8182822,26.9290868,-82.8182822,26.9290868,-82.3796782,26.3694183,-82.3796782,26.3694183,-81.8777106,25.805971,-81.8777106,25.805971,-81.5036862,25.7474753,-81.5036862,25.7474753,-81.4405462,25.6851489,-81.4405462,25.6851489,-81.3155883,25.5600985,-81.3155883,25.5600985,-81.2538534,25.4342361,-81.2538534,25.4342361,-81.1902012,25.1234341,-81.1902012,25.1234341,-81.1288133,25.0619389,-81.1288133,25.0619389,-81.0649231,24.8157807,-81.0649231,24.8157807,-81.6289469,24.7538367,-81.6289469,24.7538367,-81.6907173,24.6899374,-81.6907173,24.6899374,-81.8173189,24.6279161,-81.8173189,24.6279161,-82.1910041,24.496294,-82.1910041,24.496294,-81.6216596,24.559484,-81.6216596,24.559484,-81.372006,24.6220687,-81.372006,24.6220687,-81.0593278,24.684826,-81.0593278,24.684826,-80.9347147,24.7474828,-80.9347147,24.7474828,-80.7471081,24.8100618,-80.7471081,24.8100618,-80.3629898,25.1175858,-80.3629898,25.1175858,-80.122344,25.7472357,-80.122344,25.7472357,-80.0588458,26.3708251,-80.0588458,26.3708251,-79.995837,26.9398003,-79.995837,26.9398003,-80.0587265,27.1277466,-80.0587265,27.1277466,-80.1226251,27.2534279,-80.1226251,27.2534279,-80.1846956,27.3781229,-80.1846956,27.3781229,-80.246175,27.5658729,-80.246175,27.5658729,-80.3094768,27.7530311,-80.3094768,27.7530311,-80.3721485,27.8774451,-80.3721485,27.8774451,-80.4351457,28.0033366,-80.4351457,28.0033366,-80.4966078,28.1277326,-80.4966078,28.1277326,-80.5587159,28.3723509,-80.5587159,28.3723509,-80.4966335,29.5160326,-80.4966335,29.5160326,-81.1213644,31.6846966,-81.1213644,31.6846966,-80.6018723,32.2475309,-80.6018723,32.2475309,-79.4921024,32.9970261,-79.4921024,32.9970261,-79.1116488,33.3729457,-79.1116488,33.3729457,-78.6153621,33.8097638,-78.6153621,33.8097638,-77.9316963,33.8718243,-77.9316963,33.8718243,-77.8692252,34.0552454,-77.8692252,34.0552454,-77.6826392,34.2974598,-77.6826392,34.2974598,-77.2453509,34.5598585,-77.2453509,34.5598585,-76.4973277,34.622796,-76.4973277,34.622796,-76.4337602,34.6849285,-76.4337602,34.6849285,-76.373212,34.7467674,-76.373212,34.7467674,-76.3059364,34.808551,-76.3059364,34.808551,-76.2468017,34.8728418,-76.2468017,34.8728418,-76.1825922,34.9335332,-76.1825922,34.9335332,-76.120814,34.9952359,-76.120814,34.9952359,-75.9979015,35.0578182,-75.9979015,35.0578182,-75.870338,35.1219097,-75.870338,35.1219097,-75.7462194,35.1818911,-75.7462194,35.1818911,-75.4929694,35.3082988,-75.4929694,35.3082988,-75.4325662,35.7542495,-75.4325662,35.7542495,-75.4969907,37.8105602,-75.4969907,37.8105602,-75.3082972,37.8720088,-75.3082972,37.8720088,-75.245601,37.9954849,-75.245601,37.9954849,-75.1828751,38.0585079,-75.1828751,38.0585079,-75.1184793,38.2469091,-75.1184793,38.2469091,-75.0592098,38.3704316,-75.0592098,38.3704316,-74.9948111,38.8718417,-74.9948111,38.8718417,-74.4878252,39.3089428,-74.4878252,39.3089428,-74.1766317,39.6224653,-74.1766317,39.6224653,-74.0567045,39.933178,-74.0567045,39.933178,-73.9959035,40.1854852,-73.9959035,40.1854852,-73.9341593,40.4959486,-73.9341593,40.4959486,-73.8723024,40.5527135,-73.8723024,40.5527135,-71.8074506,41.3088005,-71.8074506,41.3088005,-70.882512,41.184978,-70.882512,41.184978,-70.7461947,41.3091865,-70.7461947,41.3091865,-70.4337553,41.4963885,-70.4337553,41.4963885,-69.9334281,41.6230802,-69.9334281,41.6230802,-69.869857,41.8776895,-69.869857,41.8776895,-69.935791,42.0032342,-69.935791,42.0032342,-69.9975823,42.0650191,-69.9975823,42.0650191,-70.0606103,42.1294348,-70.0606103,42.1294348,-70.5572884,43.2487079,-70.5572884,43.2487079,-70.4974097,43.3092194,-70.4974097,43.3092194,-70.3704249,43.371963,-70.3704249,43.371963,-70.3085701,43.4969879,-70.3085701,43.4969879,-70.183921,43.6223531,-70.183921,43.6223531,-70.057583,43.6850173,-70.057583,43.6850173,-69.7455247,43.7476571,-69.7455247,43.7476571,-69.2472845,43.8107035,-69.2472845,43.8107035,-69.0560701,43.8717247,-69.0560701,43.8717247,-68.9950522,43.9982022,-68.9950522,43.9982022,-68.4963672,44.0597368,-68.4963672,44.0597368,-68.3081038,44.122137,-68.3081038,44.122137,-68.1851802,44.3081382,-68.1851802,44.3081382,-67.9956019,44.3727489,-67.9956019,44.3727489,-67.8103041,44.435178,-67.8103041,44.435178,-67.4965289,44.4968776,-67.4965289,44.4968776,-67.37102,44.5600642,-67.37102,44.5600642,-67.1848753,44.6213345,-67.1848753,44.6213345,-67.1221208,44.6867918,-67.1221208,44.6867918,-67.059365,44.7473657,-67.059365,44.7473657,-66.9311098,44.9406566,-66.9311098,44.9406566,-66.994683,45.0024514,-66.994683,45.0024514,-67.0595847,45.1273377,-67.0595847,45.1273377,-67.1201974,45.1910115,-67.1201974,45.1910115,-67.2469811,45.253442,-67.2469811,45.253442,-67.3177546,45.1898369,-67.3177546,45.1898369,-67.370749,45.2534001,-67.370749,45.2534001,-67.4326888,45.3083409,-67.4326888,45.3083409,-67.3708571,45.4396986,-67.3708571,45.4396986,-67.4305573,45.4950095,-67.4305573,45.4950095,-67.37099,45.6264543,-67.37099,45.6264543,-67.6214982,45.6896133,-67.6214982,45.6896133,-67.683828,45.753259,-67.683828,45.753259,-67.7462097,47.1268165,-67.7462097,47.1268165,-67.8700141,47.1900278,-67.8700141,47.1900278,-67.9323803,47.2539678,-67.9323803,47.2539678,-67.9959387,47.3149737,-67.9959387,47.3149737,-68.1206676,47.3780823,-68.1206676,47.3780823,-68.4423175,47.3166082,-68.4423175,47.3166082,-68.6314305,47.2544676,-68.6314305,47.2544676,-68.9978037,47.439895,-68.9978037,47.439895,-69.0607223,47.5047558,-69.0607223,47.5047558,-69.2538122,47.4398084,-69.2538122,47.4398084,-69.3179284,47.378601,-69.3179284,47.378601,-69.4438546,47.3156274,-69.4438546,47.3156274,-69.5038204,47.2525839,-69.5038204,47.2525839,-69.5667838,47.1910884,-69.5667838,47.1910884,-69.6303478,47.128701,-69.6303478,47.128701,-69.6933103,47.0654307,-69.6933103,47.0654307,-69.7557063,47.0042751,-69.7557063,47.0042751,-69.8180391,46.9415344,-69.8180391,46.9415344,-69.8804023,46.8792519,-69.8804023,46.8792519,-69.9421674,46.8177399,-69.9421674,46.8177399,-70.0063088,46.6920295,-70.0063088,46.6920295,-70.0704265,46.4425926,-70.0704265,46.4425926,-70.1945902,46.3785887,-70.1945902,46.3785887,-70.2562047,46.3152628,-70.2562047,46.3152628,-70.3203651,46.0651209,-70.3203651,46.0651209,-70.3814988,45.93552,-70.3814988,45.93552,-70.3201618,45.879479,-70.3201618,45.879479,-70.4493131,45.7538713,-70.4493131,45.7538713,-70.5070021,45.6916912,-70.5070021,45.6916912,-70.6316642,45.6291619,-70.6316642,45.6291619,-70.7575538,45.4414685,-70.7575538,45.4414685,-70.8809878,45.3780612,-70.8809878,45.3780612,-71.13328,45.3151452,-71.13328,45.3151452,-71.3830282,45.253416,-71.3830282,45.253416,-71.5076448,45.0655726,-71.5076448,45.0655726,-73.9418929,45.0031242,-73.9418929,45.0031242,-74.7469725,45.0649003,-74.7469725,45.0649003,-74.8800964,45.0029023,-74.8800964,45.0029023,-75.0662455,44.9415167,-75.0662455,44.9415167,-75.2539363,44.8776043,-75.2539363,44.8776043,-75.3789648,44.8153462,-75.3789648,44.8153462,-75.4431283,44.7536053,-75.4431283,44.7536053,-75.5666566,44.6909879,-75.5666566,44.6909879,-75.6290205,44.6284958,-75.6290205,44.6284958,-75.7540484,44.566385,-75.7540484,44.566385,-75.817312,44.5028932,-75.817312,44.5028932,-75.8799549,44.3784946,-75.8799549,44.3784946,-76.1300319,44.3159227,-76.1300319,44.3159227,-76.1926961,44.2534378,-76.1926961,44.2534378,-76.3182619,44.1916726,-76.3182619,44.1916726,-76.3792975,44.0653733,-76.3792975,44.0653733,-76.4427584,43.9963825,-76.4427584,43.9963825,-76.317027,43.9414581,-76.317027,43.9414581,-76.5076611,43.8723335,-76.5076611,43.8723335,-76.3829974,43.8091872,-76.3829974,43.8091872,-76.2534102,43.5665222,-76.2534102,43.5665222,-76.5064833,43.5033881,-76.5064833,43.5033881,-76.6331208,43.4432252,-76.6331208,43.4432252,-76.6951085,43.3786858,-76.6951085,43.3786858,-76.8177798,43.318066,-76.8177798,43.318066,-77.682,43.3789376,-77.682,43.3789376,-78.0565883,43.4396918,-78.0565883,43.4396918,-78.4389748,43.3794382,-78.4389748,43.3794382,-78.8803396,43.3149724,-78.8803396,43.3149724,-79.1298858,43.2429286,-79.1298858,43.2429286,-79.0669615,43.1299931,-79.0669615,43.1299931,-79.1298858,43.0577305,-79.1298858,43.0577305,-79.071264,42.9294906,-79.071264,42.9294906,-78.943264,42.7542165,-78.943264,42.7542165,-79.069439,42.6941622,-79.069439,42.6941622,-79.133439,42.6296973,-79.133439,42.6296973,-79.1947499,42.5663538,-79.1947499,42.5663538,-79.3786827,42.5033425,-79.3786827,42.5033425,-79.4442961,42.4410614,-79.4442961,42.4410614,-79.5679936,42.3775264,-79.5679936,42.3775264,-79.6906154,42.3171086,-79.6906154,42.3171086,-79.8164642,42.2534481,-79.8164642,42.2534481,-80.0052373,42.1909188,-80.0052373,42.1909188,-80.1916829,42.1272555,-80.1916829,42.1272555,-80.3167992,42.0669857,-80.3167992,42.0669857,-80.5063234,42.0034331,-80.5063234,42.0034331,-80.6930471,41.9415141,-80.6930471,41.9415141,-80.9440403,41.8781193,-80.9440403,41.8781193,-81.1942729,41.8166455,-81.1942729,41.8166455,-81.3190089,41.7545453,-81.3190089,41.7545453,-81.4418435,41.690965,-81.4418435,41.690965,-81.5053523,41.6301643,-81.5053523,41.6301643,-82.7470081,41.7536942,-82.7470081,41.7536942,-82.8839135,41.5656075,-82.8839135,41.5656075,-82.9957195,41.6270375,-82.9957195,41.6270375,-83.1257796,41.6878411,-83.1257796,41.6878411,-83.2474733,41.7536942,-83.2474733,41.7536942,-83.3737305,41.809276,-83.3737305,41.809276,-83.3106019,41.8716064,-83.3106019,41.8716064,-83.2474733,41.9361393,-83.2474733,41.9361393,-83.1843447,41.9960851,-83.1843447,41.9960851,-83.1207681,42.2464812,-83.1207681,42.2464812,-83.0589194,42.3089555,-83.0589194,42.3089555,-82.8685328,42.3717652,-82.8685328,42.3717652,-82.8072219,42.558553,-82.8072219,42.558553,-82.7553745,42.4954945,-82.7553745,42.4954945,-82.5599041,42.558553,-82.5599041,42.558553,-82.4967755,42.6833607,-82.4967755,42.6833607,-82.4328863,42.9342196,-82.4328863,42.9342196,-82.3700552,43.0648071,-82.3700552,43.0648071,-82.4328863,43.1917566,-82.4328863,43.1917566,-82.4947464,43.5034627,-82.4947464,43.5034627,-82.557133,43.8160901,-82.557133,43.8160901,-82.6197884,43.9422098,-82.6197884,43.9422098,-82.6839499,44.0022641,-82.6839499,44.0022641,-82.7465346,44.0670545,-82.7465346,44.0670545,-82.8708696,44.1291935,-82.8708696,44.1291935,-83.008517,44.0664786,-83.008517,44.0664786,-83.1336086,44.0053949,-83.1336086,44.0053949,-83.2414522,44.9962034,-83.2414522,44.9962034,-83.1806112,45.067302,-83.1806112,45.067302,-83.2455172,45.1287382,-83.2455172,45.1287382,-83.3065878,45.2551509,-83.3065878,45.2551509,-83.3706087,45.3165923,-83.3706087,45.3165923,-83.4325644,45.3792105,-83.4325644,45.3792105,-83.6178415,45.4419665,-83.6178415,45.4419665,-83.8084291,45.5036189,-83.8084291,45.5036189,-84.0550718,45.5647907,-84.0550718,45.5647907,-84.1235181,45.6287845,-84.1235181,45.6287845,-84.1807534,45.6914688,-84.1807534,45.6914688,-84.3111554,45.9337076,-84.3111554,45.9337076,-83.8209974,45.8725113,-83.8209974,45.8725113,-83.4968086,45.9337076,-83.4968086,45.9337076,-83.4338066,46.0016863,-83.4338066,46.0016863,-83.4962697,46.0668178,-83.4962697,46.0668178,-83.5599956,46.1261576,-83.5599956,46.1261576,-83.9954558,46.1931747,-83.9954558,46.1931747,-84.0591816,46.3814972,-84.0591816,46.3814972,-84.1152614,46.4953584,-84.1152614,46.4953584,-84.0591816,46.5682653,-84.0591816,46.5682653,-84.2579545,46.5051232,-84.2579545,46.5051232,-84.3071879,46.5682653,-84.3071879,46.5682653,-84.4415364,46.504525,-84.4415364,46.504525,-84.9965729,46.6842882,-84.9965729,46.6842882,-84.9298158,46.818077,-84.9298158,46.818077,-85.3165894,46.7535825,-85.3165894,46.7535825,-87.5562645,47.4407371,-87.5562645,47.4407371,-87.6825361,47.5035554,-87.6825361,47.5035554,-88.2560738,47.4433716,-88.2560738,47.4433716,-88.4417419,47.3789949,-88.4417419,47.3789949,-88.50683,47.3153881,-88.50683,47.3153881,-88.6312821,47.2539782,-88.6312821,47.2539782,-88.7569636,47.1934682,-88.7569636,47.1934682,-88.8838253,47.1284735,-88.8838253,47.1284735,-88.9434208,47.0662127,-88.9434208,47.0662127,-89.0708726,47.0026826,-89.0708726,47.0026826,-89.2565553,46.9410806,-89.2565553,46.9410806,-90.3677669,47.6844827,-90.3677669,47.6844827,-90.3069978,47.7460174,-90.3069978,47.7460174,-89.994859,47.8082719,-89.994859,47.8082719,-89.8048615,47.8700562,-89.8048615,47.8700562,-89.6797699,47.9339637,-89.6797699,47.9339637,-89.4933757,47.9957956,-89.4933757,47.9957956,-89.4284697,48.0656377,-89.4284697,48.0656377,-89.9932739,48.1282966,-89.9932739,48.1282966,-90.7455933,48.1893056,-90.7455933,48.1893056,-90.8087291,48.2522065,-90.8087291,48.2522065,-91.067763,48.1916658,-91.067763,48.1916658,-91.1946247,48.1279027,-91.1946247,48.1279027,-91.6814196,48.2525994,-91.6814196,48.2525994,-91.9321927,48.3142454,-91.9321927,48.3142454,-91.9929683,48.3780845,-91.9929683,48.3780845,-92.3189383,48.2529081,-92.3189383,48.2529081,-92.3732233,48.3153385,-92.3732233,48.3153385,-92.4322288,48.4411448,-92.4322288,48.4411448,-92.4977248,48.501781,-92.4977248,48.501781,-92.5679413,48.439579,-92.5679413,48.439579,-92.6210462,48.5650783,-92.6210462,48.5650783,-92.8086835,48.6286865,-92.8086835,48.6267365,-92.8086835,48.6267365,-92.933185,48.6922145,-92.933185,48.6922145,-93.0051716,48.6282965,-93.0051716,48.6282965,-93.1225924,48.6922145,-93.1225924,48.6922145,-93.3190806,48.6267365,-93.3190806,48.6267365,-93.5049477,48.5635164,-93.5049477,48.5635164,-93.7474601,48.6267365,-93.7474601,48.6267365,-93.8135461,48.6898775,-93.8135461,48.6898775,-94.2453121,48.7554327,-94.2453121,48.7554327,-94.6183171,48.941036,-94.6183171,48.941036,-94.6809018,49.0029737,-94.6809018,49.0029737,-94.7441532,49.2536079,-94.7441532,49.2536079,-94.8084069,49.3784134,-94.8084069,49.3784134,-95.1192391,49.4425264,-95.1192391,49.4425264,-95.1934341,49.0035292,-95.1934341,49.0035292,-96.87069,49.0656063,-96.87069,49.0656063,-99.0049312,49.0050714,-99.0049312,49.0050714,-109.3699257,49.0668231,-109.3699257,49.0668231,-109.5058746,49.0050714,-109.5058746,49.0050714,-114.1830014,49.0687317,-114.1830014,49.0687317,-114.7578709,49.0050714,-114.7578709,49.0050714,-115.433731,49.0671412,-115.433731,49.0671412,-116.5062706,49.0050714,-116.5062706,49.0050714,-117.3089504,49.0659803,-117.3089504,49.0659803,-119.882945,49.0050714,-119.882945,49.0050714,-120.1208555,49.0678367,-120.1208555,49.0678367,-121.4451636,49.0050714,-121.4451636,49.0050714,-121.9311808,49.0656099,-121.9311808,49.0656099,-122.817484,49.0029143,-122.817484,49.0029143,-122.8795155,48.9347018,-122.8795155,48.9347018,-122.8174629,48.8101998,-122.8174629,48.8101998,-122.7538859,48.7533758,-122.7538859,48.7533758,-122.8712937,48.8153948,-122.8712937,48.8153948,-123.0055391,48.7529529,-123.0055391,48.7529529,-123.1296926,48.6902201,-123.1296926,48.6902201,-123.1838197,48.7529029,-123.1838197,48.7529029,-123.2549305;37.7521547,-122.9341743,37.6842013,-122.9347457,37.6849023,-123.0679013,37.7475251,-123.0673747,37.7478506,-123.1292603,37.815685,-123.1286894,37.8153192,-123.0590687,37.7528143,-123.0595947,37.7521547,-122.9341743;41.2540893,-71.6299464,41.2541393,-71.4966465,41.122965,-71.4965596,41.1229149,-71.6298594,41.2540893,-71.6299464;41.3775196,-70.3184265,41.2448243,-70.3183384,41.2448722,-70.1906612,41.1886019,-70.1906239,41.1886984,-69.9336025,41.3791941,-69.933729,41.3791712,-69.9950664,41.443159,-69.995109,41.4431307,-70.0707828,41.3144915,-70.0706972,41.3144258,-70.2461667,41.3775467,-70.2462087,41.3775196,-70.3184265;43.9404062,-68.9403374,43.9404977,-68.6856948,43.8721797,-68.6856475,43.8721577,-68.7465405,43.8102529,-68.7464976,43.8102304,-68.8090782,43.746728,-68.8090343,43.7467034,-68.8773094,43.8117826,-68.8773544,43.8117599,-68.9402483,43.9404062,-68.9403374;49.0645144,-123.1291466,49.0645144,-122.9954224,48.9343243,-122.9954224,48.9343243,-123.1291466,49.0645144,-123.1291466;24.7535913,-82.9407144,24.7535913,-82.8719398,24.6905653,-82.8719398,24.6905653,-82.7446233,24.6214593,-82.7446233,24.6214593,-82.8088038,24.5594908,-82.8088038,24.5594908,-82.9407144,24.7535913,-82.9407144"/>
+                      
+                <tag key="icon" value="data:image/png;base64,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"/>
+                      
+                <tag key="description" value="The most recent year of 30/60cm 4-band DOQQs from the National Agriculture Imagery Program (NAIP) for each state in the contiguous United States."/>
+                      
+                <tag key="customHttpHeaders" value="{}"/>
+                      
+                <tag key="category" value="photo"/>
+                    
+            </map>
+                
+            <map>
+                      
+                <tag key="max-zoom" value="22"/>
+                      
+                <tag key="min-zoom" value="4"/>
+                      
+                <tag key="overlay" value="true"/>
+                      
+                <tag key="transparent" value="true"/>
+                      
+                <tag key="minimumTileExpire" value="3600"/>
+                      
+                <tag key="name" value="TIGER Roads 2022"/>
+                      
+                <tag key="id" value="US-TIGER-Roads-2022"/>
+                      
+                <tag key="type" value="tms"/>
+                      
+                <tag key="url" value="https://{switch:a,b,c,d}.tiles.mapbox.com/styles/v1/openstreetmapus/clf46fv7v000v01q67632zujw/tiles/256/{zoom}/{x}/{y}?access_token={apikey}"/>
+                      
+                <tag key="permission-reference-url" value="https://wiki.openstreetmap.org/wiki/TIGER"/>
+                      
+                <tag key="country-code" value="US"/>
+                      
+                <tag key="date" value="2022;2022"/>
+                      
+                <tag key="cookies" value=""/>
+                      
+                <tag key="bounds" value="12.9,-178.0001,71.5633,179.99"/>
+                      
+                <tag key="shapes" value="15.6,145.7,13.2,144.2,12.9,144.8,15.4,146.2,15.6,145.7;17.38,-64.32,18.36,-64.64,18.57,-65.33,18.67,-67.9,17.8,-68.2,17.38,-64.32;52.2,179.99,53.5,172.0,52.5,172.0,51.0,179.99,52.2,179.99;21.22259,-156.29276,21.9985,-157.50474,22.50702,-159.00937,22.50629,-160.57876,21.49846,-160.57822,21.24398,-158.74706,20.9958,-157.50832,18.77902,-155.99619,18.7587,-154.62178,19.88057,-154.68902,21.22259,-156.29276;49.412,-95.11054,49.00605,-96.01312,49.00429,-123.32289,48.18499,-123.22752,48.41301,-124.76179,45.90245,-124.60595,40.05576,-124.99343,36.85661,-122.53697,33.00641,-119.97759,32.46302,-117.67593,32.47999,-114.86123,31.33601,-111.00893,31.326,-108.19927,31.77551,-108.18711,31.78209,-106.53072,31.74645,-106.48421,31.75206,-106.42932,31.56133,-106.28689,31.4467,-106.20525,30.5361,-105.02053,29.69979,-104.58819,28.89087,-103.25189,29.39206,-102.71736,29.74757,-102.1514,29.48105,-101.25529,28.00822,-100.00624,26.4476,-99.23511,25.9928,-98.01091,25.8266,-97.43502,25.98216,-96.95553,27.79782,-96.80617,28.58761,-95.55633,29.47421,-93.74053,28.85645,-90.90285,28.99443,-88.01567,30.00389,-88.01625,30.00475,-86.02775,28.99618,-84.01879,25.98268,-81.9972,25.01349,-81.99666,25.01258,-84.01656,24.00527,-84.01601,24.0071,-80.02,26.85507,-79.89011,32.01613,-80.02453,35.05319,-75.41474,39.57279,-74.02112,40.99125,-72.00202,40.99205,-69.87974,43.26199,-69.84893,44.71049,-66.94528,47.099,-67.75966,47.51223,-69.25051,46.21766,-70.46149,45.25488,-71.41227,45.00598,-72.02225,44.98029,-75.07988,43.80246,-76.90231,43.62496,-78.76239,43.44626,-79.15798,42.80053,-79.00601,41.68895,-82.66248,43.58854,-82.17616,46.13885,-83.2814,48.01427,-87.50645,48.29633,-88.34922,47.98378,-89.43531,49.00671,-93.99811,49.412,-95.11054;71.5633,-156.1769,70.7398,-160.4136,69.9707,-163.0218,68.9947,-164.9717,68.722,-167.1572,67.0255,-164.8554,66.0018,-168.0022,66.0015,-169.0087,64.9988,-169.0075,63.8767,-172.5143,59.7401,-173.8197,52.2446,-178.0001,51.2554,-177.9993,51.8215,-171.4689,53.9567,-162.4025,55.0025,-159.0076,55.0028,-158.0191,55.9992,-151.9963,57.9988,-151.5003,58.992,-151.5013,58.9953,-138.516,57.9986,-138.515,54.0032,-133.9948,54.0043,-130.0044,57.0001,-130.0071,56.9995,-131.9759,59.7566,-135.123,59.9918,-138.0072,60.4127,-139.1716,61.0119,-140.9874,69.9535,-140.9684,71.5633,-156.1769"/>
+                      
+                <tag key="icon" value="https://osmlab.github.io/editor-layer-index/sources/north-america/us/TIGER2017RoadsOverlay.png"/>
+                      
+                <tag key="description" value="Yellow = Public domain map data from the US Census. Red = Data not found in OpenStreetMap"/>
+                      
+                <tag key="customHttpHeaders" value="{}"/>
+                      
+                <tag key="category" value="qa"/>
+                    
+            </map>
+                
+            <map>
+                      
+                <tag key="min-zoom" value="1"/>
+                      
+                <tag key="projections" value="EPSG:4326,EPSG:3857,CRS:84"/>
+                      
+                <tag key="transparent" value="true"/>
+                      
+                <tag key="minimumTileExpire" value="3600"/>
+                      
+                <tag key="name" value="USGS 3D Elevation Program"/>
+                      
+                <tag key="id" value="3D-Elevation-Program"/>
+                      
+                <tag key="type" value="wms"/>
+                      
+                <tag key="url" value="https://elevation.nationalmap.gov/arcgis/services/3DEPElevation/ImageServer/WMSServer?FORMAT=image/png32&amp;TRANSPARENT=TRUE&amp;VERSION=1.3.0&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;LAYERS=3DEPElevation:Hillshade Multidirectional&amp;STYLES=&amp;CRS={proj}&amp;WIDTH={width}&amp;HEIGHT={height}&amp;BBOX={bbox}"/>
+                      
+                <tag key="attribution-text" value="United States Geological Survey"/>
+                      
+                <tag key="attribution-url" value="https://index.nationalmap.gov/arcgis/rest/services/3DEPElevationIndex/MapServer"/>
+                      
+                <tag key="logo-image" value="https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/content_list_thumbnail/public/thumbnails/image/USGS_logo_green_SQUARE.png"/>
+                      
+                <tag key="logo-url" value="https://www.usgs.gov/core-science-systems/ngp/3dep"/>
+                      
+                <tag key="country-code" value="US"/>
+                      
+                <tag key="cookies" value=""/>
+                      
+                <tag key="bounds" value="14.53043,-179.99999,84.30221,-51.24032"/>
+                      
+                <tag key="shapes" value="17.02529,-67.02759,17.00428,-68.01636,19.0829,-67.99439,18.99982,-65.98389,18.57338,-65.93995,18.47962,-64.45679,18.18762,-64.76441,18.14587,-64.96216,18.12499,-65.15992,17.9892,-64.83033,17.9683,-64.52271,17.67544,-64.48975,17.63357,-65.00611,17.0568,-65.02808,17.02529,-66.00587,17.87422,-66.03882,17.85331,-66.97266,17.02529,-67.02759;50.99991,-179.99999,52.00016,-179.99999,52.00519,-177.0337,53.03462,-177.02271,54.00783,-170.85946,56.89706,-172.44149,59.88899,-174.1993,62.26797,-173.93563,63.39157,-172.61727,63.01512,-171.03516,64.02894,-171.01319,65.66281,-168.95875,66.00239,-168.98071,69.58058,-168.31059,72.60718,-156.97283,74.77589,-129.55095,79.59239,-116.0158,84.30221,-78.22283,84.05258,-62.31454,82.76539,-58.09579,81.9232,-59.67782,80.90069,-62.31454,80.07323,-65.65438,79.08848,-69.69735,78.56051,-73.12508,77.56107,-73.74032,74.70648,-77.16805,67.67612,-59.41415,61.3547,-62.22673,53.22588,-52.91033,48.92256,-51.24032,44.40246,-51.4161,42.29363,-66.09383,36.38599,-73.21297,30.71355,-79.49711,23.68482,-79.67289,23.60431,-82.83695,27.95563,-85.6934,26.90256,-95.18563,21.45316,-94.5704,22.83703,-87.18758,21.0025,-86.28664,20.52996,-86.37453,18.04145,-87.3633,17.95784,-87.96203,17.96829,-88.05267,18.24762,-88.01422,18.22936,-88.16803,18.25544,-88.33832,17.99964,-88.3493,17.9918,-88.67615,17.75654,-88.69262,17.75654,-90.02197,17.75393,-90.69214,17.26149,-90.69214,17.24575,-91.00525,17.00952,-91.01624,16.99902,-90.68665,16.7467,-90.68115,16.73618,-90.34607,16.02471,-90.34058,16.00359,-91.64796,15.55956,-91.6919,15.50663,-92.03248,14.54107,-92.04346,14.53043,-92.6587,15.36897,-95.03174,15.96142,-102.21688,17.72785,-110.03915,17.64411,-115.31258,19.31123,-115.40047,20.22105,-106.78719,23.16065,-113.73055,30.48659,-122.2559,38.27283,-129.19939,47.27935,-129.37517,55.67769,-140.44939,58.44783,-143.26189,57.51592,-151.34783,54.16254,-154.16033,50.40163,-174.19939,50.40163,-179.47283,50.99991,-179.99999;18.45879,-155.89601,18.89592,-156.59914,20.24161,-158.68654,20.38585,-159.10402,20.46821,-159.71926,20.46821,-160.20265,20.46821,-160.66408,20.61225,-161.10353,20.92042,-161.43312,21.33034,-161.56496,21.75953,-161.58693,22.14673,-161.41115,22.39074,-161.03761,22.59375,-160.59816,22.6546,-160.15871,22.69515,-159.74123,22.69515,-159.21388,22.69515,-158.73049,22.59375,-158.26906,22.49228,-157.80763,22.30945,-157.34621,22.12638,-156.9507,21.9023,-156.53322,21.65745,-156.13771,21.39173,-155.72023,21.04352,-155.25881,20.75614,-154.95119,20.38585,-154.66554,20.01467,-154.40187,19.62192,-154.20412,19.20745,-154.07228,18.77114,-154.05031,18.43795,-154.3799,18.27111,-154.79738,18.27111,-155.25881,18.45879,-155.89601"/>
+                      
+                <tag key="icon" value="data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MDAgMjAwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiIHdpZHRoPSIxNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTAgMGgxNTB2MTUwaC0xNTB6IiBmaWxsPSIjMDA4NDU3Ii8+PHBhdGggZD0ibTQ4LjczNiA1NS41OTUuNDE5LjQwM2MxMS43NTIgOS44NDQgMjQuNDMxIDguODg2IDM0LjA5MiAyLjQ2NCA2LjA4OC00LjA0OSAzMy42MzMtMjIuMzY3IDQ5LjIwMi0zMi43MTh2LTEwLjM0NGgtMTE2LjAzdjI3LjMwOWM3LjA3MS0xLjIyNCAxOC40Ny0uMDIyIDMyLjMxNiAxMi44ODZtNDMuNjUxIDQ1LjQyNS0xMy43MDUtMTMuMTQyYy0xLjkyNi0xLjc1My0zLjU3MS0zLjA0LTMuOTI3LTMuMzEzLTExLjIwNC03Ljg2Ny0yMS42NDYtNS40NzYtMjYuMTQ5LTMuODAyLTEuMzYyLjU0NC0yLjY2NSAxLjI4Ny0zLjU4NiAxLjg2OWwtMjguNjAyIDE5LjEzdjM0LjY2NmgxMTYuMDN2LTI0Ljk1Yy0yLjU1IDEuNjItMTguMjcgMTAuMTItNDAuMDYzLTEwLjQ2bS00NC42NzctNDIuMzIyYy0uNjE5LS41NzgtMS4zMDQtMS4xOTQtMS45MTUtMS42OTgtMTMuNzAyLTEwLjYtMjYuNjQ2LTUuNDA5LTI5LjM3Ni00LjExNnYxMS45MzFsNi43MTQtNC41MjNzMTAuMzQ2LTcuNjc0IDI2LjQ0Ni4xOTV6bTE2LjAyOCAxNS40MDljLS42MDMtLjUzNC0xLjIxNC0xLjA4My0xLjgyMy0xLjY2NC0xMi4xNTctMTAuMjg1LTIzLjkwOC03LjY3LTI4Ljc4MS01Ljg2NC0xLjM4Mi41NTQtMi43IDEuMzAzLTMuNjI5IDEuODg3bC0xMy4wODYgOC43NTR2MTIuMjg4bDIxLjg4OC0xNC43NDhzMTAuMjI4LTcuNTg5IDI2LjE2Ni4wNTR6bTY4LjcyMiAxMi44NjVjLTQuNTYzIDMuMDc4LTkuMjAzIDYuMjAzLTExLjA0OCA3LjQ0MS00LjEyOCAyLjc2NS0xMy42NzggOS42MTQtMjkuNTc3IDIuMDE1bDEuODY5IDEuNzk3Yy42OTkuNjMgMS41NTQgMS4zNjIgMi40ODEgMi4wNzcgMTEuNDE4IDguNTMgMjMuNjIgNy4zMDQgMzIuNzY5IDEuMjQzIDEuMjY3LS44MzggMi40MjQtMS42MDkgMy41MDctMi4zMzR2LTEyLjIzNG0wLTI0LjYxYy0xMC4wMiA2LjczOC0yMy41NDYgMTUuODMzLTI2LjA4NSAxNy41MzYtNC4xMjcgMi43NjUtMTMuODIgOS43MDgtMjkuMzc5IDIuMjczbDEuODA0IDEuNzI5Yy4yMDUuMTkuNDA5LjM3NS42MTIuNTcxbC0uMDEuMDEuMDEtLjAxYzEyLjA3OSAxMC4yMiAyNS4zNzkgOC42NTcgMzQuNTAxIDIuNTYzIDUuMTQ2LTMuNDM2IDEyLjQ2MS04LjM4IDE4LjU0OC0xMi41MDdsLS4wMS0xMi4xNjVtMC0yNC40ODFjLTE0LjQ1MiA5LjY4Mi0zOC4xNjIgMjUuNTY4LTQxLjAzMSAyNy40OTMtNC4xNjIgMi43ODktMTMuOTc0IDkuODM2LTI5LjMzNSAyLjVsMS44NjQgMS43OTZjMS4xMTEgMS4wMDQgMi42MDUgMi4yNTkgNC4xOTIgMy4yOTUgMTAuNjMyIDYuNzkyIDIxLjc1OSA1LjU5MSAzMC44MTctLjQ1NSA2LjUxMi00LjM1MSAyMi41MjgtMTQuOTk4IDMzLjQ5My0yMi4yODV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+"/>
+                      
+                <tag key="customHttpHeaders" value="{}"/>
+                      
+                <tag key="category" value="elevation"/>
+                    
+            </map>
+              
+        </maps>
+        <list key="imagery.layers.default" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="Bing"/>
+                
+            <entry value="EsriWorldImagery"/>
+                
+            <entry value="EsriWorldImageryClarity"/>
+                
+            <entry value="Mapbox"/>
+                
+            <entry value="standard"/>
+              
+        </list>
+        <maps key="imagery.offsetbookmarks" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+  </maps>
+        <tag key="imagewaypoint.lastHeight" value="0" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="iso.dates" value="true" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="josm.version" value="18513" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="kartaview.localVersion" value="490" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="kartaview.preferences.autoplay.started" value="false" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="lastDirectory" value="C:\Users\blue\josm" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="layerlist.lastHeight" value="97" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="mappaint.renderer-class-name" value="org.openstreetmap.josm.data.osm.visitor.paint.WireframeMapRenderer" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <maps key="mappaint.style.entries" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <map>
+                      
+                <tag key="active" value="true"/>
+                      
+                <tag key="title" value="JOSM default (MapCSS)"/>
+                      
+                <tag key="ptoken" value="standard"/>
+                      
+                <tag key="url" value="resource://styles/standard/elemstyles.mapcss"/>
+                    
+            </map>
+                
+            <map>
+                      
+                <tag key="active" value="true"/>
+                      
+                <tag key="title" value="Potlatch 2"/>
+                      
+                <tag key="ptoken" value="standard"/>
+                      
+                <tag key="url" value="resource://styles/standard/potlatch2.mapcss"/>
+                    
+            </map>
+                
+            <map>
+                      
+                <tag key="active" value="true"/>
+                      
+                <tag key="title" value="Davod Mapbox"/>
+                      
+                <tag key="url" value="mapbox://styles/davidblue/cl5wg74i3001j14s6kl5imrd7"/>
+                    
+            </map>
+              
+        </maps>
+        <list key="mappaint.style.known-defaults" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="resource://styles/standard/elemstyles.mapcss"/>
+                
+            <entry value="resource://styles/standard/potlatch2.mapcss"/>
+              
+        </list>
+        <tag key="mapstyle.lastHeight" value="148" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="mapstyle.visible" value="true" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="minimap.lastHeight" value="0" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <list key="mirror.C:\Users\blue\AppData\Local\JOSM\cache\images.https://josm.openstreetmap.de/raw-attachment/wiki/Help/Josm_main.jpg.svg" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="1701977747226"/>
+                
+            <entry value="C:\Users\blue\AppData\Local\JOSM\cache\images\mirror_https___josm.openstreetmap.de_raw-attachment_wiki_Help_Josm_main.jpg.svg"/>
+              
+        </list>
+        <list key="mirror.C:\Users\blue\AppData\Local\JOSM\cache\images.https://josm.openstreetmap.de/raw-attachment/wiki/Maps/USA%20Country/TIGER2017RoadsOverlay.png" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="1701978065902"/>
+                
+            <entry value="C:\Users\blue\AppData\Local\JOSM\cache\images\mirror_https___josm.openstreetmap.de_raw-attachment_wiki_Maps_USA_20Country_TIGER2017RoadsOverlay.png"/>
+              
+        </list>
+        <list key="mirror.C:\Users\blue\AppData\Local\JOSM\cache\images.https://osmlab.github.io/editor-layer-index/sources/north-america/us/TIGER2017RoadsOverlay.png" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="1701977611818"/>
+                
+            <entry value="C:\Users\blue\AppData\Local\JOSM\cache\images\mirror_https___osmlab.github.io_editor-layer-index_sources_north-america_us_TIGER2017RoadsOverlay.png"/>
+              
+        </list>
+        <list key="mirror.https://josm.openstreetmap.de/maps" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="1701953389748"/>
+                
+            <entry value="C:\Users\blue\AppData\Local\JOSM\cache\mirror_https___josm.openstreetmap.de_maps"/>
+              
+        </list>
+        <list key="mirror.https://josm.openstreetmap.de/presets" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="1701978926987"/>
+                
+            <entry value="C:\Users\blue\AppData\Local\JOSM\cache\mirror_https___josm.openstreetmap.de_presets"/>
+              
+        </list>
+        <list key="mirror.https://josm.openstreetmap.de/remote/geofabrik-index-v1-nogeom.json" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="1701953388362"/>
+                
+            <entry value="C:\Users\blue\AppData\Local\JOSM\cache\mirror_https___josm.openstreetmap.de_remote_geofabrik-index-v1-nogeom.json"/>
+              
+        </list>
+        <list key="mirror.https://josm.openstreetmap.de/styles" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="1701978643644"/>
+                
+            <entry value="C:\Users\blue\AppData\Local\JOSM\cache\mirror_https___josm.openstreetmap.de_styles"/>
+              
+        </list>
+        <tag key="notes/note_open.lastHeight" value="147" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="notes/note_open.visible" value="true" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="oauth.access-token.key" value="03kdLBVmrKL8zYbpXJOaOxQTxkXakH1TzvOYKQmG" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="oauth.access-token.secret" value="c4BErS0kZYw8n1QwVGQDiAJRjb0LWlsJu8VstbUk" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="org.openstreetmap.josm.gui.dialogs.changeset.ChangesetCacheManager.geometry" value="x=130,y=237,width=1000,height=600" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="org.openstreetmap.josm.gui.help.HelpBrowser.geometry" value="x=0,y=0,width=600,height=1009" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="org.openstreetmap.josm.gui.oauth.OAuthAuthorizationWizard.geometry" value="x=412,y=285,width=680,height=432" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="org.openstreetmap.josm.gui.preferences.PreferenceDialog.geometry" value="x=402,y=101,width=800,height=800" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="org.openstreetmap.josm.plugins.scripting.ui.release.ReleaseNotes.last-seen-release-note" value="v0.3.0" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="osm-primitives.showid" value="true" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="osm-primitives.showversion" value="true" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="pluginmanager.lastupdate" value="1701977290740" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="pluginmanager.version" value="18513" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <list key="plugins" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="CommandLine"/>
+                
+            <entry value="DirectDownload"/>
+                
+            <entry value="ElevationProfile"/>
+                
+            <entry value="ImageWayPoint"/>
+                
+            <entry value="InfoMode"/>
+                
+            <entry value="KartaView"/>
+                
+            <entry value="Relation.Validation.Plugin"/>
+                
+            <entry value="RoadSigns"/>
+                
+            <entry value="TombPlugin"/>
+                
+            <entry value="Tracks2Map"/>
+                
+            <entry value="apache-commons"/>
+                
+            <entry value="apache-http"/>
+                
+            <entry value="changeset-viewer"/>
+                
+            <entry value="editgpx"/>
+                
+            <entry value="jaxb"/>
+                
+            <entry value="jna"/>
+                
+            <entry value="jogl"/>
+                
+            <entry value="josm-batch-downloader"/>
+                
+            <entry value="jts"/>
+                
+            <entry value="livegps"/>
+                
+            <entry value="notesolver"/>
+                
+            <entry value="openvisible"/>
+                
+            <entry value="osm-obj-info"/>
+                
+            <entry value="osmwiki-dataitem"/>
+                
+            <entry value="photo_geotagging"/>
+                
+            <entry value="reverter"/>
+                
+            <entry value="routes"/>
+                
+            <entry value="routing"/>
+                
+            <entry value="scripting"/>
+                
+            <entry value="surveyor"/>
+                
+            <entry value="tageditor"/>
+                
+            <entry value="tagging-preset-tester"/>
+                
+            <entry value="waydownloader"/>
+                
+            <entry value="waypoint_search"/>
+                
+            <entry value="wikipedia"/>
+              
+        </list>
+        <tag key="preferences.reset.draw.rawgps.lines" value="true" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="propertiesdialog.lastHeight" value="147" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="proxy.policy" value="no-proxy" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="relationlist.lastHeight" value="147" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.bridleway" value="40" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.bus_guideway" value="50" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.byway" value="50" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.cycleway" value="40" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.footway" value="20" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.living_street" value="30" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.motorway" value="120" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.motorway_link" value="120" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.path" value="40" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.pedestrian" value="30" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.primary" value="100" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.primary_link" value="100" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.residential" value="50" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.road" value="100" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.secondary" value="90" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.service" value="30" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.steps" value="10" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.tertiary" value="90" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.track" value="50" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.trunk" value="120" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.trunk_link" value="120" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="routing.profile.default.speed.unclassified" value="50" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="selectionlist.lastHeight" value="147" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <list key="shortcut.entry.system:preferences" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+                
+            <entry value="Edit: Preferences"/>
+                
+            <entry value="123"/>
+                
+            <entry value="5003"/>
+                
+            <entry value="44"/>
+                
+            <entry value="128"/>
+                
+            <entry value="false"/>
+                
+            <entry value="true"/>
+              
+        </list>
+        <tag key="toggleDialogs.width" value="328" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="userlist.lastHeight" value="0" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="validated.ipv6" value="true" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+        <tag key="validator.lastHeight" value="0" xmlns="http://josm.openstreetmap.de/preferences-1.0"/>
+    </preferences>
+</config>
