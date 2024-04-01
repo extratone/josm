@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+<preferences operation="replace">
+<list key="shortcut.entry.edit:unselectall" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+    <entry value="Selection: Unselect All"/>
+    <entry value="27"/>
+    <entry value="5003"/>
+    <entry value="65"/>
+    <entry value="192"/>
+    <entry value="false"/>
+    <entry value="true"/>
+  </list>
+<list key="shortcut.entry.system:preferences" xmlns="http://josm.openstreetmap.de/preferences-1.0">
+    <entry value="Edit: Preferences"/>
+    <entry value="123"/>
+    <entry value="5003"/>
+    <entry value="44"/>
+    <entry value="128"/>
+    <entry value="false"/>
+    <entry value="true"/>
+  </list>
+</preferences>
+</config>
